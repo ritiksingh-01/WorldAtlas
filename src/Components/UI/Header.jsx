@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 const Header = () => {
   return (
-    <header className='flex flex-row gap-[40%] items-center w-screen bg-[#202020] h-18 px-[20%]'>
+    <header className='flex flex-row gap-[40%] items-center w-screen bg-[#202020] h-18 px-[15%] justify-around'>
       <div>
         <NavLink to="/">
         <h1 className=' text-2xl font-bold font-serif '>WorldAtlas</h1>
